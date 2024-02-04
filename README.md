@@ -1,2 +1,2 @@
-# Skripsi-
+# Skripsi
 Skripsi Journey
