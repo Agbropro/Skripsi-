@@ -20,7 +20,8 @@ import keyboard
 
 
 try:
-    arduino = serial.Serial('COM3', 9600, timeout=5)
+    arduino = serial.Serial('COM3', 9600, timeout=.1 #  timeout .1 means that if there is no data received within 100 milliseconds, the readline() operation will return with whatever data has been received up to that point.
+                            )
 
     def stop_code():
         print("Stopping the code...")

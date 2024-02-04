@@ -63,7 +63,7 @@ axs[2].set_title('Alpha Waves (8-13 Hz)')
 axs[3].set_title('Beta Waves (13-30 Hz)')
 
 plt.xlabel('Time (s)')
-plt.ylim(-0.08,0.08)
+# plt.ylim(-0.08,0.08)
 plt.ylabel('Amplitude')
 plt.tight_layout()
 plt.show()
